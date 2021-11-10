@@ -1,0 +1,91 @@
+body {
+    background: #FBF5F3;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+    padding: 4rem 0;
+}
+section#acercademi {
+    display: flex;
+    flex-direction :column;
+    padding: 3rem 0;
+}
+section#acercademi h1 {
+    color: #C42847;
+    font-size: 3rem;
+}
+section#acercademi p {
+    color: #de3c4b;
+    font-size: 1.4rem;
+}
+section#loqueaprendo {
+    background: #C42847;
+    display: flex;
+    flex-direction :column;
+}
+section#loqueaprendo h2,
+section#loqueaprendo p{
+    color: #FBF5F3;
+}
+section#loqueaprendo p,
+section#loquemegusta table,
+section#loquemegusta p {
+    margin: .5rem auto;
+    width: 80%;
+}
+section#loquemegusta p {
+    padding-bottom: 2rem;
+}
+section#loquemegusta h2 {
+    color: #e28413;
+}
+
+h2 {
+    color: #000022;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+nav {
+    background: #E28413;
+    padding: 1rem;
+}
+ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+}
+li {
+    
+}
+ul li {
+    list-style: none;    
+    padding: 0 .2rem;
+}
+ul li a {
+    border: 1px solid white;
+    border-radius: .3rem;
+    color: white;
+    font-weight: bold;
+    padding: .5rem 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn {
+    background: #000022;
+    border-radius: .5rem;
+    color: white;
+    padding: .5rem 1rem;
+}
